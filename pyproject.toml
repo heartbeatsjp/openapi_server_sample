@@ -10,6 +10,7 @@ packages = [{include = "openapi_server_sample"}]
 python = "^3.11"
 fastapi = "^0.92.0"
 uvicorn = "^0.20.0"
+pip-licenses = "^4.3.0"
 
 
 [build-system]
