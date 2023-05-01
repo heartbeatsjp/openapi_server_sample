@@ -5,3 +5,7 @@ dev:
 .PHONEY: generate
 generate:
 	poetry run python openapi_server_sample/generate.py > openapi.json
+
+.PHONEY: lint
+lint:
+	black openapi_server_sample
